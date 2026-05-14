@@ -22,3 +22,19 @@ main {
     width: 100%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Un toque visual extra */
 }
+
+section ul {
+    display: flex;
+    justify-content: space-around; /* Espacio uniforme entre los elementos */
+    flex-wrap: wrap; /* Saltan de línea si no caben */
+    list-style: none; /* Quitamos los puntos de la lista */
+    padding: 0;
+    gap: 10px; /* Espacio extra vertical/horizontal cuando se acomodan */
+}
+
+section li {
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px; /* Estilo de "etiqueta" para las habilidades */
+}
